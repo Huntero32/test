@@ -1,0 +1,4 @@
+threads=250
+create=10000
+amount=00
+favorite=no
