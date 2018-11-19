@@ -79,6 +79,6 @@ def get_user_agent():
 	return fake.user_agent()
 
 def get_random_name():
-	return "{}{}{}{}{}{}{}{}{}{}".format (random.choice(string.ascii_letters), random.choice(string.ascii_letters), random.choice(string.ascii_letters),random.choice(string.ascii_letters),random.choice(string.ascii_letters),random.choice(string.ascii_letters),random.choice(string.ascii_letters),random.choice(string.ascii_letters), random.choice(("dArK","dArK2","dArK3","dArK4","dArK5",)), random.randint(1, 100))
+	return "{}{}{}{}{}{}{}{}{}{}{}".format (random.choice(("XX","xX","xx","bingo","Grace","olivia","mya","mya_","teverse","JayByte_","Gsmer_","DaV1D","ssm","iCyber","iCyb3r","James_","Jerry","ozpin","rwby","j3rry","Hunter","Bob","Smokey0","Sloss","dArK","dArK2","dArK3","dArK4","dArK5","LAz0r","TEvErs3","B0t","Vortex","VOrtEx","V0rTeX","JOSE","CARL","CLARENCE","Tempi","Reaper","ML","ML_","ReApEr","Fr3d","Fr3d_","TERRENCE","GameProtect",)),random.choice(string.ascii_letters), random.choice(string.ascii_letters), random.choice(string.ascii_letters),random.choice(string.ascii_letters),random.choice(string.ascii_letters),random.choice(string.ascii_letters),random.choice(string.ascii_letters),random.choice(string.ascii_letters), random.choice(("XX","xX","xx","Hunter","Bob","Smokey0","Sloss","dArK","dArK2","dArK3","dArK4","dArK5","_",)), random.randint(1, 100))
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
