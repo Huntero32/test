@@ -1,0 +1,5 @@
+threads=250
+create=1
+amount=00
+favorite=no
+restarts=yes
